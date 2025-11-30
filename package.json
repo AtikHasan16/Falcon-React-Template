@@ -1,0 +1,26 @@
+{
+  "name": "create-react-project",
+  "version": "1.0.0",
+  "description": "A CLI to setup my custom react stack ",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-react-project": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "react-starter",
+    "cli"
+  ],
+  "author": "Hasan MD Atik",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.3.2",
+    "kolorist": "^1.8.0",
+    "prompts": "^2.4.2"
+  }
+}
