@@ -54,6 +54,7 @@ async function init() {
   }
 
   console.log(cyan(`\n📂  Creating project in ${targetDir}...`));
+  console.log(cyan(`    (Template: ${templateDir})`));
 
   // 5. Copy files from template to target
   try {
@@ -78,6 +79,10 @@ async function init() {
       const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"));
       pkg.name = projectName;
       fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2));
+    } else {
+      console.warn(
+        yellow("⚠  Warning: package.json not found in the generated project.")
+      );
     }
 
     console.log(green(`\n✅  Success! Project "${projectName}" created.`));
