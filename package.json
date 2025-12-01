@@ -1,11 +1,11 @@
 {
-  "name": "create-react-project",
+  "name": "vite-react-project-initializer",
   "version": "1.0.0",
   "description": "A CLI to setup my custom react stack ",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "create-react-project": "./index.js"
+    "vite-react-project-initializer": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
