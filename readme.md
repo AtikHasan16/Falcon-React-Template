@@ -76,7 +76,7 @@ Check out the repository: [github.com/AtikHasan16/Falcon-React-Template](https:/
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ---
 

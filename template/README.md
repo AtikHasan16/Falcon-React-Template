@@ -62,7 +62,8 @@ src/
 ├── pages/          # Application pages
 ├── routers/        # Routing configuration
 ├── contexts/       # Global state contexts
-└── Hooks/          # Custom hooks
-
+├── Hooks/          # Custom hooks
+├── Firebase/       # Firebase configuration
+├── Components/     # Shared UI components (Navbar, Footer, etc.)
 
 ```
