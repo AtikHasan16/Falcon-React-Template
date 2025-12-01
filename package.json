@@ -1,6 +1,6 @@
 {
   "name": "vite-react-project-initializer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A CLI to setup my custom react stack ",
   "main": "index.js",
   "type": "module",
