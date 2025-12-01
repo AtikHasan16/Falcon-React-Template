@@ -1,6 +1,3 @@
-src/
-.gitignore
-.eslintrc
-vite.config.js
+src/.gitignore
+src/.eslintrc
 node_modules/
-.vscode
