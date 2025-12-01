@@ -70,8 +70,9 @@ async function init() {
     // 5. Copy files from template to target
     fs.copySync(templateDir, targetDir, {
       filter: (src) => {
-        // Don't copy node_modules if they exist in template (usually shouldn't be there)
-        return !src.includes("node_modules");
+        // Don't copy node_modules if they exist in template
+        const basename = path.basename(src);
+        return basename !== "node_modules";
       },
     });
 
